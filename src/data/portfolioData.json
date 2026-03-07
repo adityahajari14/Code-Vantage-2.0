@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "slug": "code-vantage",
+    "name": "Code Vantage",
+    "tagline": "A bold digital identity for a software development agency",
+    "category": "Web Development",
+    "image": "/assets/codevantage-old.webp",
+    "link": "https://old.codevantage.in/",
+    "description": "We designed and built Code Vantage's own agency website from the ground up — a high-performance, animated React application that showcases the agency's technical depth and creative vision. Every interaction and animation was crafted with purpose, balancing visual impact with blazing performance.",
+    "services": ["UI/UX Design", "Web Development"],
+    "tech": ["React", "GSAP", "Vite"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 2,
+    "slug": "vibhas-academy",
+    "name": "Vibhas Gahankar's Academy of Music",
+    "tagline": "A digital stage for a renowned music academy",
+    "category": "Web Development",
+    "image": "/assets/vibhasgahankarsacademyofmusic.webp",
+    "link": "https://vibhasgahankarsacademyofmusic.com",
+    "description": "We created a clean, elegant website that reflects the prestige and tradition of Vibhas Gahankar's Academy of Music. The design makes it effortless for students to discover courses, explore the curriculum, and get in touch — all without clutter getting in the way.",
+    "services": ["UI/UX Design", "Web Development"],
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "testimonial": null,
+    "results": null
+  }
+]

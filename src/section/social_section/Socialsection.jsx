@@ -59,7 +59,7 @@ const Socialsection = memo(() => {
       <div className="socialglow1"></div>
       <div className="socialglow2"></div>
       <div className="social-container">
-        <h1 ref={headingRef}>Follow our journey</h1>
+        <h1 ref={headingRef}>See what we're building next</h1>
         <div className="social-links">
             <img className='social-orbits' src={'/assets/social-orbits.webp'} alt="" loading="lazy" />
             <img className='social' src={'/assets/Social.webp'} alt="" loading="lazy" />

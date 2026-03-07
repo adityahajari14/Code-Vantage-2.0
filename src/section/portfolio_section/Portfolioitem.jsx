@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './portfolioitem.css';
 import gsap from 'gsap';
@@ -6,7 +7,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Portfolioitem = ({ name, link, image }) => {
+const Portfolioitem = ({ name, slug, image }) => {
   const itemRef = useRef(null);
 
   useEffect(() => {
@@ -63,7 +64,7 @@ const Portfolioitem = ({ name, link, image }) => {
 
   return (
     <div className="portfolio-item-div" ref={itemRef}>
-      <a href={link} target='_blank' rel="noopener noreferrer">
+      <Link to={`/portfolio/${slug}`}>
         <img 
           src={image} 
           alt={name} 
@@ -76,14 +77,14 @@ const Portfolioitem = ({ name, link, image }) => {
         />
         <div className="portfolio-background"></div>
         <div className="portfolio-name">{name}</div>
-      </a>
+      </Link>
     </div>
     )
 };
 
 Portfolioitem.propTypes = {
   name: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
 };
 

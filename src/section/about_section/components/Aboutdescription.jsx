@@ -38,10 +38,10 @@ const Aboutdescription = () => {
   return (
     <div className="about-description">
                     <ol>
-                        <li> We create <span className="about-light-blue">visually unique</span> websites with intuitive <span className="about-light-blue">user interfaces</span> to ensure a memorable user experience.</li>
-                        <li>Our websites are built to load <span className="about-purple">quickly</span> and run <span className="about-purple">efficiently</span>, providing a seamless browsing experience.</li>
-                        <li>We prioritize <span className="about-yellow">SEO</span> to enhance your website's visibility and <span className="about-yellow">ranking</span> on search engines, driving more organic traffic.</li>
-                        <li>We deliver exceptional results and a <span className="about-orange">professional</span> process, offering more <span className="about-orange">value</span> than we charge.</li>
+                        <li>We build <span className="about-light-blue">visually unique</span> digital products with intuitive <span className="about-light-blue">interfaces</span> — designed to leave a lasting impression on every user.</li>
+                        <li>Everything we build loads <span className="about-purple">fast</span> and runs <span className="about-purple">efficiently</span> — because performance isn't a feature, it's the foundation.</li>
+                        <li>We bake in <span className="about-yellow">SEO</span> and discoverability from day one — so the right people find you without paid ads, boosting your <span className="about-yellow">reach</span> organically.</li>
+                        <li>You get a <span className="about-orange">premium</span> product with a transparent process — and pricing that makes the decision easy.</li>
                     </ol>
     </div>
   )

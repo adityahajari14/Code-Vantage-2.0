@@ -20,7 +20,7 @@ const HeroText = (props) => {
         <div className='hero-below-right'>
             <div className="text-container">
                 <div className="text-wrapper">
-                    <div className="web-text">WEB</div>
+                    <div className="web-text">DIGITAL</div>
                 </div>
                 <div className="text-wrapper">
                     <div className="presence-text">PRESENCE</div>

@@ -147,7 +147,7 @@ const Faqsection = () => {
             </svg>
           </summary>
           <p className="answer">
-            We specialize in HTML, CSS, JavaScript, React, WordPress, Shopify and other popular web development frameworks and platforms.
+            We work with modern web and app technologies — and we'll always recommend the right stack for your specific project, not just what's trendy.
           </p>
         </details>
 
@@ -170,7 +170,7 @@ const Faqsection = () => {
               <path className="horizontal" d="M2 10L18 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           </summary>
-          <p className="answer">The timeline varies depending on the complexity and requirements of the project. A typical website can take anywhere from 1 to 12 weeks.</p>
+          <p className="answer">Most projects go live in 2–6 weeks. After our first call, you'll get a clear timeline with milestones — no open-ended projects.</p>
         </details>
 
         <details className="faq">
@@ -181,7 +181,7 @@ const Faqsection = () => {
               <path className="horizontal" d="M2 10L18 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           </summary>
-          <p className="answer">After an initial meeting to understand your needs and project requirements, we provide a tailored proposal.</p>
+          <p className="answer">We quote a fixed price after a free 30-minute discovery call — no hourly billing, no surprise invoices.</p>
         </details>
 
         <details className="faq">
@@ -214,7 +214,7 @@ const Faqsection = () => {
               <path className="horizontal" d="M2 10L18 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           </summary>
-          <p className="answer">Yes, we provide free 6 months ongoing support and maintenance to ensure your website runs smoothly. Our support services include bug fixes, security monitoring, and performance optimization.</p>
+          <p className="answer">Every project includes 6 months of free support — bug fixes, security updates, and performance tuning, all included.</p>
         </details>
       </div>
       <div className="faqgradient"></div>

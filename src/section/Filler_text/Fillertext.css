@@ -32,22 +32,22 @@
 
 .filler-bracketblue{
     top: -10px;
-    left: -10px;
+    left: 20px;
     rotate: 256deg;
     animation: fillerBracketFloat 5s ease-in-out infinite;
 }
 
 .filler-bracketpurple{
     bottom: -20px;
-    right: 60px;
+    right: -10px;
     rotate: 245deg;
     animation: fillerBracketFloat 5s ease-in-out infinite;
 }
 
 .filler-starabove{
-    width: 200px;
+    width: 180px;
     height: auto;
-    top: -100px;
+    top: -130px;
     right: -90px;
     rotate: 33deg;
     z-index: 3;
@@ -119,20 +119,20 @@
 
     .filler-bracketblue {
         width: 90px;
-        top: 2px;
-        left: 2px;
+        top: -10px;
+        left: 20px;
     }
 
     .filler-bracketpurple{
         width: 90px;
         bottom: -5px;
-        right: 46px;
+        right: 0px;
     }
 
     .filler-starabove {
-        width: 160px;
-        top: -70px;
-        right: -62px;
+        width: 140px;
+        top: -90px;
+        right: -50px;
     }
 
     .filler-starbelow {
@@ -161,21 +161,21 @@
     }
 
     .filler-bracketblue {
-        width: 70px;
-        top: 7px;
-        left: 12px;
+        width: 60px;
+        top: -10px;
+        left: 20px;
     }
 
     .filler-bracketpurple{
-        width: 70px;
+        width: 60px;
         bottom: 0px;
-        right: 40px;
+        right: 10px;
     }
 
     .filler-starabove {
-        width: 120px;
-        top: -45px;
-        right: -36px;
+        width: 90px;
+        top: -65px;
+        right: -10px;
     }
     .filler-starbelow {
         width: 90px;
@@ -219,7 +219,7 @@
     }
 
     .filler-text{
-        font-size: 5.5vw;
+        font-size: 4.5vw;
     }
 
     .filler-side-decor-left {
@@ -232,23 +232,23 @@
 
     .filler-bracketblue {
         width: 40px;
-        top: 15px;
-        left: 27px;
+        top: 10px;
+        left: 30px;
     }
 
     .filler-bracketpurple{
         width: 40px;
         bottom: 13px;
-        right: 42px;
+        right: 25px;
     }
 
     .filler-starabove {
-        width: 80px;
-        top: -25px;
-        right: -8px;
+        width: 60px;
+        top: -35px;
+        right: 5px;
     }
     .filler-starbelow {
-        width: 60px;
+        width: 50px;
         bottom: -12px;
         left: 14px;
         filter: blur(1.5px);
@@ -262,23 +262,23 @@
 @media (max-width: 425px){
     .filler-bracketblue {
         width: 40px;
-        top: 15px;
-        left: 27px;
+        top: 5px;
+        left: 30px;
     }
 
     .filler-bracketpurple{
         width: 40px;
-        bottom: 13px;
-        right: 42px;
+        bottom: 10px;
+        right: 20px;
     }
 
     .filler-starabove {
-        width: 70px;
-        top: -17px;
-        right: -1px;
+        width: 50px;
+        top: -20px;
+        right: 5px;
     }
     .filler-starbelow {
-        width: 50px;
+        width: 40px;
         bottom: -4px;
         left: 20px;
     }

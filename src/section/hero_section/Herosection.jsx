@@ -3,6 +3,7 @@ import Herostar from './components/Herostar'
 import Herosidedecorleft from './components/Herosidedecorleft'
 import Herosidedecorright from './components/Herosidedecorright'
 import Linedivider from './components/Linedivider'
+import { Link } from 'react-router-dom'
 import './Herosection.css'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -58,7 +59,7 @@ const Herosection = () => {
 
   return (
     <>
-      <section id="hero" style={{ paddingTop: "10vh", width: "100%" }}>
+      <section id="hero" style={{ paddingTop: "5vh", width: "100%" }}>
         <div className="heroglow1"></div>
         <div className="heroglow2"></div>
         <div className="heroglow3"></div>
@@ -67,6 +68,10 @@ const Herosection = () => {
         <Herotext textType="stroke"/>
         <Herosidedecorright />
         <Herosidedecorleft />
+        <div className="hero-cta">
+          <button className="hero-cta-primary" onClick={(e) => { e.preventDefault(); if (window.Calendly) { window.Calendly.initPopupWidget({ url: 'https://calendly.com/codevantage-in/30min?background_color=242424&text_color=ffffff&primary_color=af00ff' }); } }}>START YOUR PROJECT</button>
+          <Link to="/portfolio" className="hero-cta-secondary">SEE OUR WORK →</Link>
+        </div>
       </section>
       <Linedivider />
     </>

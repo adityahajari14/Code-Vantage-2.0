@@ -7,19 +7,19 @@ const CARD_DATA = [
   { 
     id: 1, 
     title: 'Web Development', 
-    content: "Our web development services focus on creating unique, responsive, and highly functional websites. Whether it's a WordPress, Webflow, Shopify, or custom-coded platform, we ensure your site stands out and performs excellently in search engines.",
+    content: "We develop fast, responsive websites that rank well and deliver real results — built on the platform that fits your needs perfectly.",
     image: '/assets/web-development-service.webp'
   },
   { 
     id: 2, 
     title: 'UI/UX Design', 
-    content: 'We craft eye-catching and unique designs using Figma, tailored to represent your brand perfectly. Our design process ensures your website is not only visually appealing but also provides an intuitive user experience.',
+    content: 'Designs that look stunning and work even better. Every layout, button, and flow is crafted to guide your users toward action.',
     image: '/assets/web-design-service.webp'
   },
   { 
     id: 3, 
     title: 'App Development', 
-    content: 'We develop mobile applications for iOS and Android platforms, creating user-friendly and feature-rich apps that engage your audience and drive business growth.',
+    content: 'Native iOS and Android apps built to keep your users engaged — with clean UX that drives retention and growth.',
     image: '/assets/web-development-service.webp'
   }
 ];
@@ -37,7 +37,7 @@ const Servicesection = () => {
 
   return (
     <section className='servicesection' id='services'>
-      <h2 className="servicesectionheading">WHAT WE PROVIDE</h2>
+      <h2 className="servicesectionheading">WHAT WE BUILD</h2>
       <div className="services-section-container">
         {CARD_DATA.map((card, index) => (
           <Servicecard

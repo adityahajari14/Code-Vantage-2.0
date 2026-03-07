@@ -98,6 +98,32 @@
     display: none;
 }
 
+.portfolio-view-all {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 8vh 0;
+}
+
+.portfolio-view-all-link {
+    font-family: 'inter';
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 1rem 2.5rem;
+    border-radius: 4rem;
+    transition: all 0.3s ease;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-view-all-link:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
 .portfolio-title-mobile {
     display: none;
 }

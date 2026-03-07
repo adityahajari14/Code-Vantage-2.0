@@ -40,9 +40,8 @@ const Fillertext = () => {
         <img className='filler-bracketblue' src="\assets\Bracket Blue.webp" alt="" />
         <img className='filler-starabove' src="\assets\Star.webp" alt="" />
             <div style={{padding: "32px 48px", zIndex: "2", position: "relative"}}>
-            Elevating the web<br />
-            experience with<br />
-            next-gen design
+            Your brand deserves<br />
+            more than a template
             </div>
         <img className='filler-starbelow' src="\assets\Star.webp" alt="" />
         <img className='filler-bracketpurple' src="\assets\Bracket Purple.webp" alt="" />

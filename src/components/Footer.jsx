@@ -15,14 +15,13 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="info">
                     <div className="cta">
-                        <p className="cta-para">Code Vantage stands for its trust and quality of work, don’t forget to schedule a call before you leave.</p>
-                        <Button className='footer-button' name="SCHEDULE CALL" />
+                        <p className="cta-para">Ready to bring your idea to life? Let's talk — your first consultation is free.</p>
+                        <Button className='footer-button' name="BOOK FREE CALL" />
                     </div>
                     <img src="/assets/Icon Logo.webp" alt="" className="footer-icon-logo" />
                     <div className="emails">
                         <h2 className='email-title'>Email</h2>
                         <a href="mailto:contact@codevantage.in" className="email">contact@codevantage.in</a>
-                        <a href="mailto:revanshu@codevantage.in" className="email">revanshu@codevantage.in</a>
                         <a href="mailto:aaditya@codevantage.in" className="email">aaditya@codevantage.in</a>
                     </div>
                 </div>
