@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import portfolioData from '../data/portfolioData.json'
 import Button from '../components/Button'
@@ -10,6 +10,14 @@ const PortfolioDetailPage = () => {
 
   const project = portfolioData.find(p => p.slug === slug)
   const otherProjects = portfolioData.filter(p => p.slug !== slug)
+  const galleryImages = useMemo(() => {
+    if (!project) return []
+    if (Array.isArray(project.images) && project.images.length > 0) {
+      return project.images
+    }
+    return project.image ? [project.image] : []
+  }, [project])
+  const [activeImage, setActiveImage] = useState('')
 
   useEffect(() => {
     if (!project) {
@@ -19,6 +27,10 @@ const PortfolioDetailPage = () => {
     document.title = `${project.name} — Code Vantage`
     return () => { document.title = 'Code Vantage' }
   }, [project, navigate])
+
+  useEffect(() => {
+    setActiveImage(galleryImages[0] || '')
+  }, [galleryImages, slug])
 
   if (!project) return null
 
@@ -30,8 +42,30 @@ const PortfolioDetailPage = () => {
       </Link>
 
       <div className="detail-hero">
-        <img src={project.image} alt={project.name} loading="eager" decoding="async" />
+        {activeImage && (
+          <img src={activeImage} alt={project.name} loading="eager" decoding="async" />
+        )}
       </div>
+
+      {galleryImages.length > 1 && (
+        <div className="detail-gallery-thumbs" aria-label="Project gallery thumbnails">
+          {galleryImages.map((img, index) => {
+            const isActive = img === activeImage
+            return (
+              <button
+                key={`${project.slug}-gallery-${index}`}
+                type="button"
+                className={`detail-thumb ${isActive ? 'active' : ''}`}
+                onClick={() => setActiveImage(img)}
+                aria-label={`View screenshot ${index + 1} for ${project.name}`}
+                aria-pressed={isActive}
+              >
+                <img src={img} alt={`${project.name} screenshot ${index + 1}`} loading="lazy" decoding="async" />
+              </button>
+            )
+          })}
+        </div>
+      )}
 
       <div className="detail-header">
         <div className="detail-header-left">

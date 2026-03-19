@@ -1,13 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import portfolioData from '../data/portfolioData.json'
 import Button from '../components/Button'
 import './PortfolioPage.css'
 
-const CATEGORIES = ['All', 'Web Development', 'UI/UX Design', 'App Development']
-
 const PortfolioPage = () => {
   const [activeFilter, setActiveFilter] = useState('All')
+  const categories = useMemo(() => {
+    const uniqueCategories = [...new Set(portfolioData.map(project => project.category))]
+    return ['All', ...uniqueCategories]
+  }, [])
 
   useEffect(() => {
     document.title = 'Our Work — Code Vantage'
@@ -27,7 +29,7 @@ const PortfolioPage = () => {
       </div>
 
       <div className="portfolio-filters">
-        {CATEGORIES.map(cat => (
+        {categories.map(cat => (
           <button
             key={cat}
             className={`filter-btn ${activeFilter === cat ? 'active' : ''}`}

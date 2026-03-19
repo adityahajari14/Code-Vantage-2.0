@@ -1,11 +1,83 @@
 [
   {
     "id": 1,
+    "slug": "yournextblinds",
+    "name": "Your Next Blinds",
+    "tagline": "Premium custom window blinds and shades, manufactured in Texas",
+    "category": "E-Commerce",
+    "image": "/projects/yournextblinds/yournextblinds-main.png",
+    "images": [
+      "/projects/yournextblinds/yournextblinds-main.png",
+      "/projects/yournextblinds/yournextblinds-1.png",
+      "/projects/yournextblinds/yournextblinds-2.png",
+      "/projects/yournextblinds/yournextblinds-3.png",
+      "/projects/yournextblinds/yournextblinds-4.png",
+      "/projects/yournextblinds/yournextblinds-5.png"
+    ],
+    "link": "https://www.yournextblinds.com/",
+    "description": "A fully functional e-commerce platform for custom window coverings with over 15 years of expertise. The platform features made-to-measure options, free fabric samples, and a diverse range of products including roller shades, vertical blinds, and motorized solutions. Built with emphasis on user experience and conversion optimization.",
+    "services": ["UI/UX Design", "Web Development", "E-Commerce Platform"],
+    "tech": ["React", "Next.js", "Tailwind CSS", "Shopify/Payment Integration"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 2,
+    "slug": "partyfud",
+    "name": "PartyFud",
+    "tagline": "UAE's first dedicated catering marketplace for events",
+    "category": "Marketplace",
+    "image": "/projects/partyfud/partyfud-main.png",
+    "images": [
+      "/projects/partyfud/partyfud-main.png",
+      "/projects/partyfud/partyfud-1.png",
+      "/projects/partyfud/partyfud-2.png",
+      "/projects/partyfud/partyfud-3.png",
+      "/projects/partyfud/partyfud-4.png"
+    ],
+    "link": "https://uae.partyfud.com/",
+    "description": "A comprehensive event catering marketplace connecting event planners with verified caterers. The platform enables users to plan events, browse verified caterers, customize menus, and manage bookings effortlessly. Features include occasion-based browsing, caterer verification system, transparent pricing, and customer reviews.",
+    "services": ["UI/UX Design", "Web Development", "Marketplace Development"],
+    "tech": ["React", "Next.js", "Node.js", "Database Management", "Payment Gateway"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 3,
+    "slug": "vibhas-academy",
+    "name": "Vibhas Gahankar's Academy of Music",
+    "tagline": "A digital stage for a renowned music academy",
+    "category": "Education",
+    "image": "/projects/vibhas-academy/vibhasacademy-main.webp",
+    "images": [
+      "/projects/vibhas-academy/vibhasacademy-main.webp",
+      "/projects/vibhas-academy/vibhasacademy-1.png",
+      "/projects/vibhas-academy/vibhasacademy-2.png",
+      "/projects/vibhas-academy/vibhasacademy-3.png",
+      "/projects/vibhas-academy/vibhasacademy-4.png",
+      "/projects/vibhas-academy/vibhasacademy-5.png",
+      "/projects/vibhas-academy/vibhasacademy-6.png"
+    ],
+    "link": "https://vibhasgahankarsacademyofmusic.com",
+    "description": "We created a clean, elegant website that reflects the prestige and tradition of Vibhas Gahankar's Academy of Music. The design makes it effortless for students to discover courses, explore the curriculum, and get in touch — all without clutter getting in the way.",
+    "services": ["UI/UX Design", "Web Development"],
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 4,
     "slug": "code-vantage",
     "name": "Code Vantage",
     "tagline": "A bold digital identity for a software development agency",
-    "category": "Web Development",
-    "image": "/assets/codevantage-old.webp",
+    "category": "Agency",
+    "image": "/projects/code-vantage/codevantage-main.webp",
+    "images": [
+      "/projects/code-vantage/codevantage-main.webp",
+      "/projects/code-vantage/codevantage-1.png",
+      "/projects/code-vantage/codevantage-2.png",
+      "/projects/code-vantage/codevantage-3.png"
+    ],
     "link": "https://old.codevantage.in/",
     "description": "We designed and built Code Vantage's own agency website from the ground up — a high-performance, animated React application that showcases the agency's technical depth and creative vision. Every interaction and animation was crafted with purpose, balancing visual impact with blazing performance.",
     "services": ["UI/UX Design", "Web Development"],
@@ -14,16 +86,102 @@
     "results": null
   },
   {
-    "id": 2,
-    "slug": "vibhas-academy",
-    "name": "Vibhas Gahankar's Academy of Music",
-    "tagline": "A digital stage for a renowned music academy",
-    "category": "Web Development",
-    "image": "/assets/vibhasgahankarsacademyofmusic.webp",
-    "link": "https://vibhasgahankarsacademyofmusic.com",
-    "description": "We created a clean, elegant website that reflects the prestige and tradition of Vibhas Gahankar's Academy of Music. The design makes it effortless for students to discover courses, explore the curriculum, and get in touch — all without clutter getting in the way.",
-    "services": ["UI/UX Design", "Web Development"],
-    "tech": ["HTML", "CSS", "JavaScript"],
+    "id": 5,
+    "slug": "sawsan-foundation",
+    "name": "Sawsan Nizar Alakhras Foundation",
+    "tagline": "Dignified, trusted healthcare for underserved Syrian communities",
+    "category": "Healthcare",
+    "image": "/projects/sawsanfoundation/sawsan-main.png",
+    "images": [
+      "/projects/sawsanfoundation/sawsan-main.png",
+      "/projects/sawsanfoundation/sawsan-1.png",
+      "/projects/sawsanfoundation/sawsan-2.png"
+    ],
+    "link": "https://www.sawsanfoundation.org/",
+    "description": "A mission-driven non-profit website highlighting healthcare initiatives for vulnerable communities. The site showcases the organization's innovative booth-based model, volunteer network, and doctor partnerships. We integrated a full-fledged telemedicine platform enabling remote consultations and healthcare access for communities with limited in-person clinic availability. Built to inspire donations and community involvement while communicating the organization's impact through compelling storytelling.",
+    "services": ["UI/UX Design", "Web Development", "Telemedicine Platform", "Donation System"],
+    "tech": ["React", "Next.js", "Tailwind CSS", "CMS Integration", "Video Conferencing", "Healthcare Backend"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 6,
+    "slug": "hometrack",
+    "name": "HomeTrack Real Estate",
+    "tagline": "Where expertise meets excellence in Dubai real estate",
+    "category": "Real Estate",
+    "image": "/projects/hometrack/hometrack-main.png",
+    "images": [
+      "/projects/hometrack/hometrack-main.png",
+      "/projects/hometrack/hometrack-1.png",
+      "/projects/hometrack/hometrack-2.png",
+      "/projects/hometrack/hometrack-3.png",
+      "/projects/hometrack/hometrack-4.png",
+      "/projects/hometrack/hometrack-5.png"
+    ],
+    "link": "https://www.hometrack.ae/",
+    "description": "A sophisticated real estate advisory platform emphasizing wealth management and property investment. Features comprehensive service descriptions, founder's story, expert team profiles, client testimonials, and a podcast section. Built to convey professionalism, trust, and deep financial expertise with a luxury aesthetic.",
+    "services": ["UI/UX Design", "Web Development", "Branding"],
+    "tech": ["React", "Next.js", "Tailwind CSS", "Audio Hosting"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 7,
+    "slug": "aerial-perspectives",
+    "name": "Aerial Perspectives Studios",
+    "tagline": "Industry-leading UAV operations for aerial imaging and surveying",
+    "category": "Aviation Services",
+    "image": "/projects/aerialps/aerialps-main.png",
+    "images": [
+      "/projects/aerialps/aerialps-main.png",
+      "/projects/aerialps/aerialps-1.png",
+      "/projects/aerialps/aerialps-2.png"
+    ],
+    "link": "https://www.aerialps.ae/",
+    "description": "A professional services portfolio showcasing UAE and Singapore-based drone operations. The site highlights technical expertise in drone photography, videography, FPV cinematics, and industrial inspections with a dynamic gallery of completed projects. Built to demonstrate enterprise-level capabilities and safety standards.",
+    "services": ["Web Development", "Portfolio Design"],
+    "tech": ["React", "Next.js", "Image Optimization", "Gallery Framework"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 8,
+    "slug": "aplus-academy",
+    "name": "A+ Academy",
+    "tagline": "Your pathway to mathematics success in Israel",
+    "category": "Education",
+    "image": "/projects/aplusacademy/aplusacademy-main.png",
+    "images": [
+      "/projects/aplusacademy/aplusacademy-main.png",
+      "/projects/aplusacademy/aplusacademy-1.png",
+      "/projects/aplusacademy/aplusacademy-2.png"
+    ],
+    "link": "https://aplusacademy.net/",
+    "description": "An educational platform for a mathematics academy founded by experienced educators with 70+ years of combined teaching expertise. The site features founder profiles, success metrics (98% pass rate), personalized learning programs, and an enrollment system. Built to convey trust and academic excellence.",
+    "services": ["Web Development", "Enrollment System"],
+    "tech": ["React", "Next.js", "Form Validation", "Responsive Design"],
+    "testimonial": null,
+    "results": null
+  },
+  {
+    "id": 9,
+    "slug": "taldo",
+    "name": "Taldo",
+    "tagline": "Build your nursing career in Germany with confidence",
+    "category": "Healthcare",
+    "image": "/projects/taldo/taldo-main.png",
+    "images": [
+      "/projects/taldo/taldo-main.png",
+      "/projects/taldo/taldo-1.png",
+      "/projects/taldo/taldo-2.png",
+      "/projects/taldo/taldo-3.png",
+      "/projects/taldo/taldo-4.png"
+    ],
+    "link": "https://www.taldo.co/",
+    "description": "A career accelerator platform helping Indian nurses transition to careers in Germany. Features comprehensive program information, salary calculator tool, testimonials, FAQ section, and consultation booking system. Built to establish trust, showcase opportunity, and drive conversions for a professional services business.",
+    "services": ["Web Development", "Interactive Tools", "Consulting Platform"],
+    "tech": ["React", "Next.js", "Calculator Component", "Calendar Integration", "Email Service"],
     "testimonial": null,
     "results": null
   }

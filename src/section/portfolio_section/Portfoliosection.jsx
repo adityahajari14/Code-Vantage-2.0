@@ -10,6 +10,8 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(useGSAP);
 
 const Portfoliosection = () => {
+  const featuredPortfolioItems = portfolioData.slice(0, 3)
+
   useGSAP(() => {
     const mm = gsap.matchMedia();
     
@@ -108,7 +110,7 @@ const Portfoliosection = () => {
             </div>
 
             <div className='portfolio-content'>
-                 {portfolioData.map(item => (
+                {featuredPortfolioItems.map(item => (
                    <Portfolioitem key={item.id} name={item.name} slug={item.slug} image={item.image} />
                  ))}
             </div>
@@ -126,7 +128,7 @@ const Portfoliosection = () => {
             </div>
 
             <div className='portfolio-content-mobile'>
-                 {portfolioData.map(item => (
+                {featuredPortfolioItems.map(item => (
                    <Portfolioitem key={item.id} name={item.name} slug={item.slug} image={item.image} />
                  ))}
             </div>
